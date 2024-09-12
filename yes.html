@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks Love</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic styling for responsiveness */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        audio {
+            display: none; /* Hide the audio controls */
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            p, li {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dear Tshwaro,</h1>
+        <p>I know things haven't been perfect between us, but I've reflected and realized the changes I need to make. Here are the promises I'd like to make to you:</p>
+        <ul class="promises">
+            <li>I will listen to you more and truly hear your thoughts and feelings.</li>
+            <li>I will support you in your goals and dreams, cheering you on every step of the way.</li>
+            <li>I will be more patient and understanding, especially during tough times.</li>
+            <li>I will communicate openly and honestly, ensuring we both feel secure and loved.</li>
+            <li>I will work on my personal growth to be a better partner for you.</li>
+        </ul>
+        <p>You mean the world to me, and I'm committed to making what we have stronger.</p>
+        
+        <h2>Terms and Conditions</h2>
+        <p>By working on our relationship, we both commit to:</p>
+        <ul class="terms">
+            <li>Communicating openly and honestly.</li>
+            <li>Supporting each other in personal growth.</li>
+            <li>Making time for each other regularly.</li>
+            <li>Handling conflicts with patience and understanding.</li>
+            <li>Showing appreciation and love through small gestures.</li>
+        </ul>
+        <form
+      action="https://formspree.io/f/xyzgaelw" method="post" onsubmit="return validateForm()">
+            <p>Do you agree to these terms and conditions?</p>
+            <label>
+                <input type="radio" name="response" value="agree"> I agree
+            </label>
+            <label>
+                <input type="radio" name="response" value="disagree"> I disagree
+            </label>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <p>Love always,</p>
+        <p>[Mother of your kids]</p>
+<script>
+        document.getElementById('yesBtn').addEventListener('click', function() {
+    
+    document.getElementById('yesSong').play(); // Play the song
+});
+</script>
+</body>
+</html>
